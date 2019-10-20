@@ -54,7 +54,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:layout_weight="1"
-                    android:padding="5dp">
+                    >
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -62,7 +62,7 @@
                         android:layout_gravity="center_vertical"
                         android:layout_marginLeft="10dp"
                         android:fontFamily="@font/nunito_sans_semibold"
-                        android:text="Prod Name" />
+                        android:text="Machine Name" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -80,7 +80,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:layout_weight="1"
-                    android:padding="5dp">
+                    >
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -88,7 +88,7 @@
                         android:layout_gravity="center_vertical"
                         android:layout_marginLeft="10dp"
                         android:fontFamily="@font/nunito_sans_semibold"
-                        android:text="Cust Drawing No" />
+                        android:text="Product Name" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -152,7 +152,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="10dp"
             android:fontFamily="@font/nunito_sans_semibold"
-            android:text="Revition No" />
+            android:text="Drawing No" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -176,7 +176,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="10dp"
             android:fontFamily="@font/nunito_sans_semibold"
-            android:text="Internal Drawing No" />
+            android:text="Status" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -184,7 +184,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="10dp"
             android:fontFamily="@font/nunito_sans"
-            android:text="Bearing"
+            android:text="Processing"
             android:textSize="12sp" />
 
     </LinearLayout>
@@ -214,11 +214,11 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="10dp"
+                    android:padding="14dp"
                     android:layout_margin="5dp"
                     android:tint="@android:color/white"
                     android:background="@color/gradient_start_color"
-                    app:srcCompat="@drawable/ic_delete_black_24dp" />
+                    app:srcCompat="@drawable/ic_eye" />
             </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>

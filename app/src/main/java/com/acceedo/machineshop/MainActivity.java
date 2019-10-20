@@ -14,7 +14,10 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import com.acceedo.machineshop.fragment.BaselineMasterFragment;
 import com.acceedo.machineshop.fragment.DashBoardFragment;
+import com.acceedo.machineshop.fragment.ProcessMasterFragment;
+import com.acceedo.machineshop.fragment.ReportFragment;
 
 import java.util.ArrayList;
 
@@ -45,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
 /*    @OnClick({R.id.click})
     public void onClick(){
-        startActivity(new Intent(MainActivity.this,ProductListActivity.class));
+        startActivity(new Intent(MainActivity.this,JobProcessListActivity.class));
     }*/
 
 
@@ -144,10 +147,10 @@ public class MainActivity extends AppCompatActivity {
             switch(pos) {
 
                 case 0: return DashBoardFragment.newInstance("FirstFragment, Instance 1");
-                case 1: return DashBoardFragment.newInstance("SecondFragment, Instance 1");
-                case 2: return DashBoardFragment.newInstance("ThirdFragment, Instance 1");
-                case 3: return DashBoardFragment.newInstance("ThirdFragment, Instance 2");
-                default: return DashBoardFragment.newInstance("ThirdFragment, Default");
+                case 1: return BaselineMasterFragment.newInstance("SecondFragment, Instance 1");
+                case 2: return ProcessMasterFragment.newInstance("ThirdFragment, Instance 1");
+                case 3: return ReportFragment.newInstance("FourthFragment, Instance 2");
+                default: return DashBoardFragment.newInstance("FirstFragment, Default");
             }
         }
 

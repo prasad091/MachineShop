@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.acceedo.machineshop.ProductListActivity;
+import com.acceedo.machineshop.JobProcessListActivity;
 import com.acceedo.machineshop.R;
 
 import java.util.List;
@@ -62,7 +62,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    context.startActivity(new Intent(context, ProductListActivity.class));
+                    context.startActivity(new Intent(context, JobProcessListActivity.class));
                 }
             });
         }
